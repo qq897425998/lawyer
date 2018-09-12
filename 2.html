@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="2.css">
+    <title>黄政律师</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo"></div>
+        <div class="content">
+            <div class="title">黄政律师</div>
+            <div class="div1">致力于刑事诉讼、民商事纠纷等领域，积累了丰富的案件处理经验。自开始执业以来，本人坚持以诚信和正直取信于当事人，坚持维护当事人利益至上，为各类企事业单位和个人提供优质高效的法律服务。</div>
+        </div>
+    </div>
+    <script>
+        window.onload = function() {
+            getRem(720, 100)
+        };
+        window.onresize = function() {
+            getRem(720, 100)
+        };
+
+        function getRem(pwidth, prem) {
+            var html = document.getElementsByTagName("html")[0];
+            var oWidth = document.body.clientWidth || document.documentElement.clientWidth;
+            html.style.fontSize = oWidth / pwidth * prem + "px";
+        }
+    </script>
+</body>
+
+</html>
