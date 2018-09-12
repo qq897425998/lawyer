@@ -39,19 +39,6 @@ body {
     background-size: cover;
 }
 
-
-/* .logo {
-    margin: 20px auto;
-    text-align: center;
-}
-
-.logo img {
-    width: 50%;
-    height: 50%;
-    border: 0.05rem solid #fff;
-    border-radius: 100%;
-} */
-
 .div1 {
     font-size: 12px;
     line-height: 20px;
@@ -97,10 +84,6 @@ body {
 .box,
 .code {
     margin-top: 0.2rem;
-}
-
-.click {
-    /* width: 40px; */
 }
 
 .box .fl {
