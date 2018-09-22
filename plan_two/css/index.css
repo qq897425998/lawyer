@@ -1,92 +1,111 @@
-.logo {
-    background: url(https://qq897425998.github.io/lawyer/plan_two/images/1.jpeg) no-repeat center center;
+.swiper-container {
     width: 100%;
-    height: 6rem;
-    background-size: cover;
+    height: 4rem;
 }
 
-.div1 {
-    font-size: 12px;
-    line-height: 20px;
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiper-pagination-bullet-active {
+    background: red!important;
+}
+
+.category {
+    background: #fff;
+    margin-top: 0.2rem;
+    width: 100%;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.category ul {}
+
+.category ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.red {
+    background: red;
+    width: 0.8rem;
+    margin: 0 auto;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.icon-huiyuan- {
+    color: #fff;
 }
 
 .title {
-    margin-bottom: 0.26rem;
-    text-align: center;
+    margin-top: 0.1rem;
 }
 
-.title .hz {
-    font-weight: bold;
-    color: #171616;
-    margin-bottom: 0.1rem;
-    font-size: 0.34rem;
+.article {
+    margin-bottom: 60px;
 }
 
-.title .ls span {
-    font-size: 0.24rem;
-}
+.article ul {}
 
-.content {
-    color: #666;
-}
-
-.bg {
+.article ul li {
     background: #fff;
-    border-radius: 0.1rem;
-    margin: 0.3rem;
-    box-shadow: 0 4px 8px 0 rgba(7, 17, 27, .05);
-    padding: 0.3rem;
-}
-
-.layer-info {
-    background: #fff;
-    border-radius: 0.1rem;
-    margin: 0.3rem;
-    margin-top: -1rem;
-    box-shadow: 0 4px 8px 0 rgba(7, 17, 27, .05);
-    padding: 0.3rem 0.3rem 0.1rem 0.3rem;
-}
-
-.box,
-.code {
+    padding: 0.2rem;
     margin-top: 0.2rem;
 }
 
-.box p {
-    line-height: 0.4rem;
-    font-size: 0.24rem;
+.article ul li .user-info {}
+
+.article ul li .user-info .user-logo {
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url(https://qq897425998.github.io/lawyer/plan_one/images/logo.png) no-repeat center center;
+    border-radius: 100%;
 }
 
-.title button {
-    margin-left: 10px;
-    background: green;
-    padding: 2px;
-    border: 0;
-    color: #fff;
-    font-size: 0.12rem;
+.article ul li .user-info .user-name {
+    color: #000;
 }
 
-.group-btn {
-    margin-bottom: 0.3rem;
-    width: 100%;
-    text-align: center;
+.article ul li h4 {
+    margin: 0.1rem 0;
+    font-size: 0.26rem;
 }
 
-.group-btn button {
-    border: 0;
-    padding: 0.12rem 0.45rem;
-    border-radius: 0.3rem;
+.article ul li a {
+    color: #000;
 }
 
-button.zx {
-    background: #4db4f2;
-    border: 1px solid #4db4f2;
-    color: #fff;
-    margin-right: 0.8rem;
+.article ul li p {
+    color: #868484;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
-button.call {
-    border: 1px solid #4db4f2;
-    color: #4db4f2;
-    background: #fff;
+.article ul li .user-footer {
+    margin: 0.1rem 0;
 }
+
+.article ul li .user-info .user-name {}

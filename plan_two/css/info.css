@@ -1,0 +1,79 @@
+h3 {
+    text-align: center;
+    margin: 0.3rem 0 0.1rem 0;
+}
+
+.user-info {
+    height: 4rem;
+    width: 100%;
+    padding-top: 1rem;
+    color: #fff;
+    background: #1f7bca;
+}
+
+.user-info .user-logo {
+    background: url(https://qq897425998.github.io/lawyer/plan_one/images/logo.png) no-repeat center center;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    text-align: center;
+    border: 3px solid #fff;
+    margin: 0 auto;
+}
+
+.user-info p {
+    text-align: center;
+}
+
+.div1 {
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.title {
+    margin-bottom: 0.26rem;
+    text-align: center;
+}
+
+.title .hz {
+    font-weight: bold;
+    color: #171616;
+    margin-bottom: 0.1rem;
+    font-size: 0.34rem;
+}
+
+.title .ls span {
+    font-size: 0.24rem;
+}
+
+.content {
+    color: #666;
+}
+
+.bg {
+    background: #fff;
+    padding: 0.3rem;
+    margin: 0.3rem 0;
+    box-shadow: 0 4px 8px 0 rgba(7, 17, 27, .05);
+}
+
+.category {
+    background: #fff;
+    margin-top: 0.2rem;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.category ul {}
+
+.category ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+i {
+    color: #2474b9;
+    font-size: 0.48rem!important;
+}
