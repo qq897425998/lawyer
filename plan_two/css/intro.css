@@ -10,10 +10,13 @@
     margin-top: 0.2rem;
 }
 
-.article ul li .user-info {}
+.article ul li .user-info span {
+    display: inline-block;
+}
 
 .article ul li .user-info .user-logo {
     width: 0.4rem;
+    vertical-align: middle;
     height: 0.4rem;
     background: url(https://qq897425998.github.io/lawyer/plan_two/images/logo.png) no-repeat center center;
     border-radius: 100%;
