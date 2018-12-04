@@ -4,6 +4,10 @@
     font-size: 0.2rem;
 }
 
+a {
+    text-decoration: none;
+}
+
 body {
     font-size: 0.2rem;
 }
